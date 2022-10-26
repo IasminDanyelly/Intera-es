@@ -1,0 +1,157 @@
+# Intera-es
+Esse projeto é um teste de javascript,html e css,criado por mim e algumas ideias de canais no youtube. *Eu não copiei e colei*
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+
+
+/* calculadora*/
+
+div.main{
+  position: relative;
+  left: 30px;
+  background-color: black;
+  width: 260px;
+  height: 300px;
+  padding: 10px;
+  border-radius: 15px;
+}
+input{
+  font-size: 20px;
+  margin: 3px;
+  color: #fff;
+  padding: 10px;
+  font-size: 20px;
+  font-family: 'Bebas Neue', cursive;
+  border-radius: 15%;
+}
+.main{
+  display: inline-block;
+}
+.maincolor{
+  background-color: black;
+}
+.num{
+  width: 54px; 
+  height: 57px;
+}
+.text{
+  width: 160px;
+  height: 26px;
+  border-radius: 22px;
+  letter-spacing: 5px;
+  
+}
+.text1{
+  width: 25px;
+  height: 26px;
+  border-radius: 50%;
+  letter-spacing: 5px;
+  cursor: pointer;
+}
+.blue{
+  background-color: #0cd0cd;
+}
+.pin{
+  background-color: #cf1596;
+}
+.gre{
+  background-color: #aad800;
+}
+.por{
+  background-color: #8c52ff;
+}
+.ora{
+  background-color: #fcb707;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Outros...*/
+body{
+
+    background-color:#fff;
+  }
+  h1{
+    color:aquamarine;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    position: relative;
+    text-align: center;}
+  p{
+    color: black;
+    font-family:Arial, Helvetica, sans-serif ;
+    font-size:20px;
+    position:relative;
+    left: 30px;
+    top:40px;
+
+  }
+h2{
+    color: rgb(80, 80, 80);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:20px;
+    position:relative;
+    left: 30px;
+    top:80px;
+}
+h3{
+    background-color: rgb(101, 236, 195);
+    width: 150px;
+    height: 100px;
+    color: rgb(7, 173, 151);
+    font-size:20px;
+    position:relative;
+    font-family: Arial, Helvetica, sans-serif; 
+    left: 30px;
+    top:160px;
+    text-align: center;
+    padding:10px ;
+    padding-top: 65px;
+    margin-top: 20px;
+
+
+    
+}
+h3:hover{
+    background-color: rgb(91, 191, 245);
+    color: aqua;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ul{
+
+  
+  position: relative;
+  left: 290px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+   top: 70px;
+ 
+}
+
+
+li{
+  position: relative;
+  left: 470px;
+ 
+}
+
+
+img{
+  position: relative;
+  bottom: 170px;
+  left:500px;
+}
