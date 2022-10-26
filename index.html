@@ -1,0 +1,77 @@
+# Intera-es
+Esse projeto é um teste de javascript,html e css,criado por mim e algumas ideias de canais no youtube. *Eu não copiei e colei*
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8"/>
+    <link rel="stylesheet" href="style.css">
+    <title>Teste</title>
+<script>
+  function acendeLampada(){
+    document.getElementById("luz").src ="lâmpada-acesa.jpg"
+  }
+  function apagaLampada(){
+    document.getElementById("luz").src ="lâmpada-apagada.jpg"
+  }
+  function quebraLampada(){
+    document.getElementById("luz").src ="lampada-quebrada.jpg"
+  }
+  </script>
+
+</head>
+<body>
+ <h1>Minhas interações</h1>
+<p>Olá,quero agradecer a todos vocês que estão visitando nosso site,e quero desejar uma boa visita e sejam muito bem vindos😘.</p>
+
+<h2>Aqui nós temos muita interação!</h2>
+
+<h3>
+    Deslize o mouse aqui!
+</h3>
+<div>
+  
+    <ul>
+      <li>Acenda a Lâmpada:Deslize o mouse em cima</li>
+      <li>Apague a Lâmpada:Deslize o mouse para fora</li>
+      <li>Quebre a Lâmpada:Click sobre a imagem</li>
+  </ul>
+  
+
+<img src="lâmpada-apagada.jpg" id="luz" onmousemove="acendeLampada()" onmouseout="apagaLampada()" onclick="quebraLampada()">
+</div>
+<div class="main">
+ <form action="" name="calculadora">
+
+  <input type="text" class="text maincolor" name="text1" disabled>
+  <input type="text" class="text1 maincolor" name="text12" value="C" 
+     onclick="location.reload()"><br/>
+
+  <input type="button" class="num maincolor" name="btn9" value="9"
+   onclick="displaynum(btn9.value)">
+  <input type="button" class="num maincolor" name="btn8" value="8" 
+  onclick="displaynum(btn8.value)">
+  <input type="button" class="num maincolor" name="btn7" value="7" 
+  onclick="displaynum(btn7.value)">
+  <input type="button" class="num blue" name="addbtn" value="+" 
+  onclick="displaynum(addbtn.value)"><br/>
+
+  <input type="button" class="num maincolor" name="btn6" value="6" onclick="displaynum(btn6.value)">
+  <input type="button" class="num maincolor" name="btn5" value="5" onclick="displaynum(btn5.value)">
+  <input type="button" class="num maincolor" name="btn4" value="4" onclick="displaynum(btn4.value)">
+  <input type="button" class="num pin" name="subbtn" value="-" onclick="displaynum(subbtn.value)"><br/>
+
+  <input type="button" class="num maincolor" name="btn3" value="3" onclick="displaynum(btn3.value)">
+  <input type="button" class="num maincolor" name="btn2" value="2" onclick="displaynum(btn2.value)">
+  <input type="button" class="num maincolor" name="btn1" value="1" onclick="displaynum(btn1.value)">
+  <input type="button" class="num gre" name="mulbtn" value="*" onclick="displaynum(mulbtn.value)"><br/>
+
+  <input type="button" class="num maincolor" name="dot" value="." onclick="displaynum(dot.value)">
+  <input type="button" class="num maincolor" name="btn0" value="0" onclick="displaynum(btn0.value)">
+  <input type="button" class="num por" name="eqlbtn" value="=" onclick="text1.value=eval(text1.value)">
+  <input type="button" class="num ora" name="divbtn" value="/" onclick="displaynum(divbtn.value)"><br/>
+  </form>
+</div>
+<script src="script.js"></script>
+</body>
+
+</html>
